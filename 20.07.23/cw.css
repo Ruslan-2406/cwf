@@ -1,16 +1,36 @@
-    .header{        
-            
-    background-color: black;
-    width: 100%;
-    min-width: 460px;
-    min-height: 100px;
-    margin: 0 auto 40px;
-    display: flex;
-    flex-wrap: wrap;
+a{
+    color: white;
+    text-decoration: none;
+}
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        width: 100%;
+        min-width: 430px;
     }
-
+    .header_sections{
+        display: flex;
+        align-items: center;
+    }
+    .header_item{
+        padding: 10px 15px;
+        font-size: 21px;
+        margin-left: 5px;
+    }
+    .header_item:hover{
+        background-color: #ff9900;
+        border-radius: 4px;
+    }
+    .headerButton{
+        cursor: pointer;
+        
+    }
 .login{
-    margin: 50px 0px 0px 15px;
+    margin: -15px 0px 0px 105px;
     color:blanchedalmond;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -25,16 +45,18 @@
     height: 80px;
     width: 80px;
     border-radius: 10px;
-    border: 1px solid aliceblue;
+    border: 1px solid white;
     flex-wrap: wrap;
+    background-color: white;
+    
 }
 
 .logo{
-
+    
     align-content: center;
     min-width: 80px;
     min-height: 80px;
-    margin:10px 0px 0px 630px;
+    margin:-90px 0px 0px 450px;
     align-items: flex-start;
     height: 80px;
     width: 200px;
@@ -46,27 +68,24 @@
     font-size: large;
 }
 
-.iteam{
+/* .iteam{
 
     padding: 0px 0px 0px 235px;
 
 
-}
+} */
 
 
 
-.phone_header{
-    align-content: flex-end;
-    margin:30px 0px 0px 1280px;
+/* .phone_header{
+    justify-content: end;
+    margin:0px 0px 0px 900px;
     flex-wrap: wrap;
 
-}
 
-.phone{
-    
-    /* margin:10px 0px 0px 630px; */
-    color:blanchedalmond;
-}
+} */
+
+
 
 .body{
     
@@ -131,18 +150,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-
-
-.image{
-/* 
-    background-image: url(205613_50696.jpg);
-    height: 600px;
-    width: 800px;
-    border: 1px solid burlywood; */
-
-}
-
-
 .container{
     width: 100%;
     max-width: 900px;
